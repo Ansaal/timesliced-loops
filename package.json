@@ -1,0 +1,26 @@
+{
+  "name": "timesliced-loops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --p tsconfig.build.json "
+  },
+  "keywords": [
+    "timesclicing"
+  ],
+  "author": "Ansaal",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^27.0.3",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.4"
+  }
+}
